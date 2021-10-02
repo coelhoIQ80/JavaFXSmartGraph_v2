@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXSmartGraph.jnlp">
+  <information>
+    <title>JavaFXSmartGraph</title>
+    <vendor>brunomnsilva</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-Dsun.java2d.opengl=True "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXSmartGraph-0.9.4.jar" size="73530" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaFXSmartGraph" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="com.brunomnsilva.smartgraph.Main"  name="JavaFXSmartGraph" />
+  <update check="always"/>
+</jnlp>
